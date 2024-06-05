@@ -102,7 +102,7 @@ abstract class GradientProgressIndicator extends StatefulWidget {
   final String? semanticsValue;
 
   Color _getBackgroundColor(BuildContext context) =>
-      backgroundColor ?? Theme.of(context).backgroundColor;
+      backgroundColor ?? Theme.of(context).scaffoldBackgroundColor;
 
   Widget _buildSemanticsWrapper({
     required BuildContext context,
