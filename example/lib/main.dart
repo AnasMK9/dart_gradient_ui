@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gradient_ui_widgets/gradient_ui_widgets.dart' as a;
+import 'package:gradient_ui/gradient_ui_widgets.dart' as a;
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        backgroundColor: Colors.grey[200],
+        scaffoldBackgroundColor: Colors.grey[200],
       ),
       home: MyHomePage(),
     );
