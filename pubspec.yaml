@@ -1,4 +1,4 @@
-name: gradient_ui
+name: gradient_ui_widgets
 description: UI widgets with gradient support. Supports many widgets like Elevated/TextButton, FloatingActionButton, Icon, IconButton, Text, SelectableText etc with more to come.
 version: 1.2.0
 homepage: https://github.com/ArcaneArts/gradient_ui
